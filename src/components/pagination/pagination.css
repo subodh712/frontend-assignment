@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+select {
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+select:hover {
+    border: 1px solid #646cff;
+}
+
+select:focus,
+select:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+}
